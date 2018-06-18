@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBanHang.Login" Title="Login">
+    <ContentPage.Content>
+        <StackLayout x:Name="MainLogin" BackgroundColor="#EFFBF8">
+            <ScrollView>
+                <StackLayout HorizontalOptions="Center" Padding="5"  >
+               
+                <Label Text="Login to Access" FontSize="20" TextColor="Red" />
+                <Label Text="Account" TextColor="Blue"/>
+                <Entry Text="" Placeholder="UserName" x:Name="usernameentry"/>
+                <Label Text="Password" TextColor="Blue"/>
+                <Entry Text="" Placeholder="Password" IsPassword="True"/>
+                <Button Text="Login now" HorizontalOptions="Center" TextColor="Black" Clicked="BtnLogin"
+                        />
+                <Label Text="If not account? Plase create now!" TextColor="Blue" HorizontalOptions="Center" />
+                <Button Text="Create member" HorizontalOptions="Center" TextColor="Black" Clicked="Button_Clicked"/>
+                
+
+            </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBanHang.CreateMember" Title="Create Member">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="MainCreateMember" BackgroundColor="#EFFBF8" Padding="20">
+                <Label  Text="Username" TextColor="Blue"/>
+                <Entry x:Name="name" Placeholder="Import username"/>
+                <Label  Text="Password" TextColor="Blue"/>
+                <Entry x:Name="password" Placeholder="Import password" IsPassword="True"/>
+                <Label Text="Retype Password" TextColor="Blue"/>
+                <Entry Placeholder="Import Retype password" IsPassword="True"/>
+                <Label Text="Date of birth" TextColor="Blue"/>
+                <DatePicker  x:Name="dtpicker" MaximumDate="2020/12/31" Format="yyyy/dd/mm"/>
+                <Label  Text="Number phone" TextColor="Blue"/>
+                <Entry  x:Name="number" Placeholder="Number" Keyboard="Telephone"/>
+                <Label  Text="Email" TextColor="Blue"/>
+                <Entry x:Name="email"  Placeholder="Email" Keyboard="Email"/>
+                <Button x:Name="BtnLogin" Text="Sign Up " HorizontalOptions="Center" Clicked="BtnLogin_Clicked"/>
+                <Label x:Name="details"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

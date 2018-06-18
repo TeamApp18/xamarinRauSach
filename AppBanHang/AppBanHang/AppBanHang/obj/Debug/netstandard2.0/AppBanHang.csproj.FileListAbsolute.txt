@@ -1,0 +1,9 @@
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\bin\Debug\netstandard2.0\AppBanHang.deps.json
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\bin\Debug\netstandard2.0\AppBanHang.dll
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\bin\Debug\netstandard2.0\AppBanHang.pdb
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\obj\Debug\netstandard2.0\AppBanHang.csprojAssemblyReference.cache
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\obj\Debug\netstandard2.0\AppBanHang.csproj.CoreCompileInputs.cache
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\obj\Debug\netstandard2.0\AppBanHang.AssemblyInfoInputs.cache
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\obj\Debug\netstandard2.0\AppBanHang.AssemblyInfo.cs
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\obj\Debug\netstandard2.0\AppBanHang.dll
+E:\Xamarin\AppBanHang\AppBanHang\AppBanHang\obj\Debug\netstandard2.0\AppBanHang.pdb
